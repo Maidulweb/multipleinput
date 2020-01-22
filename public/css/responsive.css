@@ -1,0 +1,110 @@
+
+@media (max-width:576px){
+    h2 {
+        font-size: 24px !important;
+    }
+    h3 {
+        font-size: 20px !important;
+    }
+    .carousel-caption {
+        width: 255px !important;
+        padding: 7px !important;
+        bottom: 25% !important;
+        left: 10% !important;
+    }
+    .left-block {
+        padding-left: 0px !important;
+    }
+}
+@media (max-width:768px){
+    .mobile-center {
+        text-align: center;
+    }
+    .mobile-center p {
+        text-align: center;
+    }
+    .carousel-caption {
+        bottom: 12%;
+      }
+      .carousel-item img {
+        width: 100%;
+        min-height: 400px;
+        max-height: 90vh;
+      }
+      .single-block {
+          padding-top: 20px;
+      }
+      .last-footer {
+        padding-top: 17px;
+      }
+}
+@media (max-width:992px){
+    .navbar-brand {
+      display: block;
+    }
+    .top-header {
+        display: none;
+    }
+    .nav-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 99999;
+        height: 114px !important;
+    }
+    .mobile-menu {
+        position: fixed;
+        top: 64px;
+        left: 0;
+        transform: translateX(-100%);
+        transition: all ease 0.3s;
+        height: 100vh;
+        width: 100vw;
+        background: #1e342c;
+        z-index: 999;
+    }
+    .mobile-menu .nav-item {
+            margin: 20px 15px;
+    }
+    .mobile-menu .nav-link {
+        color: #fff !important;
+}
+    .mobile-menu.open-slide {
+        transform: translateX(0);
+    }
+    .nav-link {
+        color: #fff !important;
+      }
+      .ptb-about {
+        padding-top: 200px;
+    }
+    .slider-caption {
+        top: 50% !important;
+      }
+    .slider-caption p{
+       line-height: 25px !important;
+     }
+    .slider-caption h2 {
+        font-size: 20px !important;
+    }
+    .slider-caption .mb-5 {
+        margin-bottom: 10px !important;
+    }
+    .slider-caption .font-60 {
+       font-size: 25px !important;
+    }
+    .slider-caption .mb-20 {
+       margin-bottom: 5px !important;
+    }
+    .carousel-caption {
+        bottom: 12% !important;
+      }
+    .blog-area.section-padding {
+        padding: 0 0 !important;
+    }
+    .single-course .nav-tabs > li {
+        width: auto !important;
+        padding: 0 8px !important;
+    }
+}
