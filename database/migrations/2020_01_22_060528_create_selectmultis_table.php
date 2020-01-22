@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateMultiTable extends Migration
+class CreateSelectmultisTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateMultiTable extends Migration
      */
     public function up()
     {
-        Schema::create('multi', function (Blueprint $table) {
+        Schema::create('selectmultis', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('ielts');
             $table->string('pte');
@@ -38,6 +38,6 @@ class CreateMultiTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('misevens');
+        Schema::dropIfExists('selectmultis');
     }
 }

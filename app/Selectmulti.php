@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Miseven extends Model
+class Selectmulti extends Model
 {
     //
 }

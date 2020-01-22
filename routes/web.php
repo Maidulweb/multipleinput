@@ -12,5 +12,5 @@
 */
 
 
-Route::get('/', 'MultiController@multi')->name('multi');
-Route::post('/', 'MultiController@multicreate')->name('multicreate');
+Route::get('/', 'SelectmultiController@multi')->name('multi');
+Route::post('/', 'SelectmultiController@multicreate')->name('multicreate');

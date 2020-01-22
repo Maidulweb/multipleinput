@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Multi;
+use App\Selectmulti;
 
-class MultiController extends Controller
+class SelectmultiController extends Controller
 {
     public function multi (){
         return view('multi');
@@ -29,7 +29,7 @@ class MultiController extends Controller
         ]);
 
 
-        $miveriable = new Multi;
+        $miveriable = new Selectmulti;
         $miveriable->ielts = $mi->ielts;
         $miveriable->pte = $mi->pte;
         $miveriable->ielts_reading = $mi->ielts_reading;
